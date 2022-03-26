@@ -15,3 +15,5 @@ def post(request, id):
         raise Http404("Bài viết không tồn tại")
 
     return render(request, 'blog/post.html', {'post': post})
+
+    
